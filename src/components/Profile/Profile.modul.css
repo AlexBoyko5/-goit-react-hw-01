@@ -1,0 +1,23 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 8px;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.profileImg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profileName {
+    margin-bottom: 5px;
+}
