@@ -13,7 +13,7 @@ const App = () => {
 				name={userData.username}
 				tag={userData.tag}
 				location={userData.location}
-				image={userData.image}
+				image={userData.vatar}
 				stats={userData.stats}
 			/>
 			<FriendList friends={friends} />
